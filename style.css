@@ -76,19 +76,17 @@ ul li {
     height: 100px;
     background-color: #2bb488;
     padding: 0 30px;
-    text-align: justify;
+    text-align: center;
 
 
 }
 
 .about h1 {
-    text-align: center;
+    
     padding: 15px;
 }
 
-.about h6 {
-    text-align: center;
-}
+
 
 .members {
     height: 400px;

@@ -5,16 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Sample Website</title>
-  <link rel="stylesheet" href="style.css">
+  <title> Your Company</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style2.css">
 
 </head>
 
 <body>
 
   <header>
-   
-      <div id="logo">
+
+    <!-- <div id="logo">
         <a href="#">YOUR LOGO</a>
       </div>
       <nav>
@@ -27,7 +29,44 @@
           <li><a href="#">SOCIAL</a></li>
         </ul>
       </nav>
-    
+     -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">YOUR LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+          <ul class="navbar-nav navbar-nav-scroll ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#">TESTIMONIALS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#">PRICING</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#">CONTACT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#">SOCIAL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
 
@@ -37,30 +76,78 @@
   </div>
 
 
-  <div class="about"><h1>About Our Team</h1>
-    <br>
-  <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
+  <div class="about">
+    <h1>About Our Team</h1>
+    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
   </div>
 
 
   <div class="members">
     <h3>OUR TEAM MEMBERS</h3> <br>
-    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dicta veniam dolore accusantium, laboriosam et omnis, Reiciendis itaque adipisci harum.</h5>
-    <br>
-    <div class="card">
-      <p id="p1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus accusamus quasi ipsum
-      </p>
-      <p id="p2" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus accusamus quasi ipsum</p>
-      <p id="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus accusamus quasi ipsum</p>
-      <p id="p4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus accusamus quasi ipsum</p>
+    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dicta veniam dolore accusantium, laboriosam et
+      omnis, Reiciendis itaque adipisci harum.</h5>
+
+
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body" id="p1">
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus
+              accusamus
+              quasi ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body" id="p2">
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus
+              accusamus
+              quasi ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body" id="p3">
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus
+              accusamus
+              quasi ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body" id="p4">
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, fugiat alias temporibus
+              accusamus
+              quasi ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
-   
+
+
 
   </div>
   <div class="footer">
-    <h4> &copy;Your Company. All rights reserved</h4>
+    <h4> &copy; Your Company | All rights reserved.</h4>
   </div>
   <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
